@@ -1,0 +1,36 @@
+### Dogs Create Test
+post http://localhost:3000/dogs.json
+Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Nzg4NDQzMjN9.GndHMhK8iC8nc5wzfDmg2S1-0t4Beko0GJbqFIYMhI0
+
+{
+"name" : "bccc",
+"breed": "lab",
+"age": 5
+}
+
+
+
+
+
+### Users Create Test
+post http://localhost:3000/users.json
+Content-Type: application/json
+
+{
+"name" : "test users",
+"email": "test@test.com",
+"password": "password",
+"password_confirmation": "password"
+}
+
+### Create Sessions Test
+post http://localhost:3000/sessions.json
+Content-Type: application/json
+
+{
+"email": "test@test.com",
+"password": "password"
+}
+
+
